@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.app-container {
+  min-height: 720px;
+  min-width: 720px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: 350px;
+  width: 400px;
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.main-head {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 40px;
+}
+
+.description {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 35px;
+}
+
+.button {
+  color: #1e293b;
+  background-color: #ffffff;
+  padding: 10px 25px;
+  border-radius: 5px;
+}
+
+.last-description {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
